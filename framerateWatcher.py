@@ -1,21 +1,3 @@
-######################## FRAMERATE WATCHER ####################################
-#### DESCRIPTION
-# Analyzes and plots various framerate statistics.
-# Implements a spike detector which is less sensitive than the default.
-# Registers the timestamps of those major spikes, in order to help compare
-#   them with other system statistics (gathered through third party programs,
-#   such as ProcessExplorer or PerfMon).
-#
-#### TODO
-# Log most cpu/gpu/io consuming process whenever a spike is detected.
-# Allow user to customize the FramerateWatcher constants via UI controls.
-#
-#### LICENSING
-# Copyright 2013 Bruno Gonzalez Campo <stenyak@stenyak.com>
-# Distributed under the GNU GPL v3. For full terms see the LICENSE.txt file.
-# 
-###############################################################################
-
 import sys
 import traceback
 from datetime import datetime
