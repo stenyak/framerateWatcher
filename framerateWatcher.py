@@ -1,3 +1,6 @@
+""" Copyright 2013 Bruno Gonzalez Campo <stenyak@stenyak.com>
+Distributed under the GNU GPL v3. For full terms see the LICENSE.txt file. """
+
 import sys
 import traceback
 from datetime import datetime
